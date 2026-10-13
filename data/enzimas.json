@@ -1,0 +1,242 @@
+[
+  {
+    "pregunta": "Según el capítulo, ¿en cuánto aumentan las enzimas como mínimo los índices de reacción respecto de la reacción no catalizada correspondiente?",
+    "opciones": [
+      "Por factores de al menos 10²",
+      "Por factores de al menos 10⁴",
+      "Por factores de al menos 10⁶",
+      "Por factores de al menos 10¹²"
+    ],
+    "correcta": 2,
+    "explicacion": "El texto indica que las enzimas aumentan los índices de la reacción no catalizada por factores de al menos 10⁶.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 61"
+  },
+  {
+    "pregunta": "¿Qué ilustra la “fijación de tres puntos” de un sustrato al sitio activo de una enzima (figura 7-1)?",
+    "opciones": [
+      "Que la enzima necesita tres coenzimas para funcionar",
+      "Que una enzima puede convertir un sustrato no quiral en un producto quiral",
+      "Que el sustrato siempre posee tres grupos fosforilo",
+      "Que la enzima se consume en tres etapas de la reacción"
+    ],
+    "correcta": 1,
+    "explicacion": "Al unirse por al menos tres puntos, átomos aparentemente idénticos se vuelven distinguibles; así, la reducción del piruvato (no quiral) produce sólo L-lactato y no una mezcla racémica.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 61"
+  },
+  {
+    "pregunta": "La hexocinasa tiene el número E.C. 2.7.1.1. ¿A qué clase de la IUB pertenece según el texto?",
+    "opciones": [
+      "Clase 1: oxidorreductasas",
+      "Clase 2: transferasas",
+      "Clase 3: hidrolasas",
+      "Clase 6: ligasas"
+    ],
+    "correcta": 1,
+    "explicacion": "El nombre ATP:D-hexosa 6-fosfotransferasa (E.C. 2.7.1.1) identifica a la hexocinasa como miembro de la clase 2 (transferasas), subclase 7 (transferencia de un grupo fosforilo).",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 61"
+  },
+  {
+    "pregunta": "¿Qué distingue a un grupo prostético de un cofactor?",
+    "opciones": [
+      "El grupo prostético se integra de manera estrecha y estable en la enzima; el cofactor se une de forma transitoria y disociable",
+      "El grupo prostético es siempre una vitamina y el cofactor siempre un metal",
+      "El cofactor está unido de manera covalente y el grupo prostético nunca lo está",
+      "No hay ninguna diferencia entre ambos"
+    ],
+    "correcta": 0,
+    "explicacion": "Los grupos prostéticos se incorporan estrecha y establemente a la proteína (por fuerzas covalentes o no covalentes). Los cofactores se unen transitoriamente, por lo que deben estar presentes en el medio que rodea a la enzima para que haya catálisis.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 62"
+  },
+  {
+    "pregunta": "¿Cuál vitamina B es componente de las coenzimas redox NAD y NADP?",
+    "opciones": [
+      "Riboflavina",
+      "Ácido pantoténico",
+      "Tiamina",
+      "Nicotinamida"
+    ],
+    "correcta": 3,
+    "explicacion": "La nicotinamida es componente de NAD y NADP. La riboflavina lo es de FMN y FAD, y el ácido pantoténico de la coenzima A.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 62"
+  },
+  {
+    "pregunta": "¿Qué mecanismo catalítico se basa en crear en el sitio activo una región de concentración local alta de sustrato, con las moléculas orientadas de modo ideal para interactuar?",
+    "opciones": [
+      "Catálisis por tensión",
+      "Catálisis covalente",
+      "Catálisis específica por ácido",
+      "Catálisis por proximidad"
+    ],
+    "correcta": 3,
+    "explicacion": "Es la catálisis por proximidad: al unirse al sitio activo, los sustratos quedan cerca y bien orientados, lo que aumenta la tasa al menos 1 000 veces frente a la reacción no catalizada por enzima.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 63"
+  },
+  {
+    "pregunta": "En la catálisis por tensión, ¿a qué conformación se asemeja la conformación tensa en que la enzima une el sustrato?",
+    "opciones": [
+      "A la del producto final",
+      "A la del intermediario de estado de transición",
+      "A la de la enzima desnaturalizada",
+      "A la del sustrato libre en solución"
+    ],
+    "correcta": 1,
+    "explicacion": "La conformación tensa imita la del intermediario de estado de transición; estira o deforma el enlace blanco, lo debilita y lo hace más vulnerable a la división. Por eso los análogos de estado de transición se diseñan como inhibidores.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 63"
+  },
+  {
+    "pregunta": "¿Qué propone el modelo de adaptación inducida de Koshland?",
+    "opciones": [
+      "Que el sitio activo es rígido, como una cerradura que sólo admite una llave",
+      "Que al unirse el sustrato se induce un cambio conformacional en la enzima, como una mano dentro de un guante",
+      "Que la enzima se une al producto con mayor afinidad que al sustrato",
+      "Que el sustrato modifica de forma permanente la secuencia de aminoácidos"
+    ],
+    "correcta": 1,
+    "explicacion": "Koshland propuso que, al aproximarse y unirse los sustratos, inducen un cambio conformacional en la enzima (y ella induce cambios recíprocos en el sustrato), lo que supera la rigidez implícita del modelo de cerradura y llave de Fischer.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 64"
+  },
+  {
+    "pregunta": "En el mecanismo de la proteasa del HIV, ¿qué función cumple el primer residuo aspartato (Asp X) en la primera etapa?",
+    "opciones": [
+      "Dona un protón al grupo amino recién formado",
+      "Forma un enlace covalente con el carbono carbonilo",
+      "Actúa como base general y extrae un protón de una molécula de agua",
+      "Coordina un ion zinc"
+    ],
+    "correcta": 2,
+    "explicacion": "Asp X actúa como base general: toma un protón del agua, que se vuelve más nucleofílica y ataca el carbono carbonilo del enlace peptídico. Luego Asp Y dona un protón al grupo amino producido.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 64 (figura 7-6)"
+  },
+  {
+    "pregunta": "¿Cuáles son los tres residuos de la “red de transmisión de carga” de la quimotripsina?",
+    "opciones": [
+      "Glu 327, His 392 e His 258",
+      "Arg 145, Tir 248 y Glu 72",
+      "Asp 102, His 57 y Ser 195",
+      "Lis 356, Arg 257 y His 258"
+    ],
+    "correcta": 2,
+    "explicacion": "El trío Asp 102-His 57-Ser 195 funciona como transbordador de protón; Ser 195, activada, ataca el enlace peptídico y forma un intermediario acilo-enzima covalente.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 65"
+  },
+  {
+    "pregunta": "¿Qué intermediario covalente participa en la catálisis de la fructosa-2,6-bisfosfatasa?",
+    "opciones": [
+      "Un intermediario fosfohistidilo",
+      "Un intermediario acilo-serina",
+      "Una base de Schiff con piridoxal",
+      "Un tiohemiacetal con cisteína"
+    ],
+    "correcta": 0,
+    "explicacion": "La catálisis comprende una tríada catalítica (un Glu y dos His) y un intermediario fosfohistidilo covalente: His 392 ataca el fosforilo de C-2 y lo transfiere a His 258.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, pp. 65-66 (figura 7-8)"
+  },
+  {
+    "pregunta": "En el ELISA, ¿cómo se determina la presencia y cantidad de anticuerpo unido?",
+    "opciones": [
+      "Midiendo la masa del complejo con espectrometría",
+      "Añadiendo el sustrato de la enzima reportera unida al anticuerpo",
+      "Separando las proteínas por electroforesis",
+      "Dividiendo el antígeno con una endonucleasa de restricción"
+    ],
+    "correcta": 1,
+    "explicacion": "El anticuerpo está unido covalentemente a una enzima reportera (p. ej., fosfatasa alcalina o peroxidasa de rábano picante); tras lavar el exceso, se añade el sustrato de esa enzima y se mide su producto, por absorbancia o fluorescencia.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 67"
+  },
+  {
+    "pregunta": "¿Por qué las deshidrogenasas dependientes de NAD(P) pueden valorarse de manera espectrofotométrica?",
+    "opciones": [
+      "Porque NAD(P)H absorbe luz a 340 nm y NAD(P)⁺ no",
+      "Porque NAD(P)⁺ absorbe luz a 340 nm y NAD(P)H no",
+      "Porque ambas formas absorben igual a 260 nm",
+      "Porque el NAD(P)H emite luz visible roja"
+    ],
+    "correcta": 0,
+    "explicacion": "Las coenzimas reducidas NADH y NADPH absorben a 340 nm; las oxidadas no. El cambio de absorbancia a 340 nm es proporcional a la cantidad de enzima presente.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 67 (figura 7-10)"
+  },
+  {
+    "pregunta": "En el ensayo acoplado de la hexocinasa (figura 7-11), ¿qué se mide para seguir la actividad de la enzima?",
+    "opciones": [
+      "La desaparición de glucosa por absorbancia a 419 nm",
+      "La formación de NADPH a 340 nm, generado por la glucosa-6-fosfato deshidrogenasa en exceso",
+      "El consumo de oxígeno",
+      "La aparición de p-nitrofenilato"
+    ],
+    "correcta": 1,
+    "explicacion": "La glucosa-6-fosfato producida por la hexocinasa es oxidada por la glucosa-6-fosfato deshidrogenasa añadida en exceso; la velocidad de formación de NADPH (a 340 nm) queda regida por la velocidad de la hexocinasa.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 68 (figura 7-11)"
+  },
+  {
+    "pregunta": "Respecto de las isozimas de la lactato deshidrogenasa (LDH), ¿qué isozima predomina en el tejido cardiaco y cuál en el hígado?",
+    "opciones": [
+      "I₅ en el corazón e I₁ en el hígado",
+      "I₁ en el corazón e I₅ en el hígado",
+      "I₃ en ambos tejidos",
+      "I₂ en el corazón e I₄ en el hígado"
+    ],
+    "correcta": 1,
+    "explicacion": "La LDH es un tetrámero de subunidades H y M. La isozima I₁ (HHHH) predomina en el corazón y la I₅ (MMMM) en el hígado, de modo que el patrón de isozimas permite inferir el tejido lesionado.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 69"
+  },
+  {
+    "pregunta": "Según el capítulo, ¿qué marcador ha reemplazado a la creatina cinasa (CK) como el preferido para el diagnóstico de infarto de miocardio en casi todos los laboratorios clínicos?",
+    "opciones": [
+      "La aspartato aminotransferasa",
+      "La lactato deshidrogenasa",
+      "Las troponinas cardiacas I y T",
+      "La fosfatasa alcalina"
+    ],
+    "correcta": 2,
+    "explicacion": "La medición plasmática de troponina ha reemplazado a la CK. Sus concentraciones aumentan 2 a 6 horas después del infarto y permanecen elevadas 4 a 10 días.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 69"
+  },
+  {
+    "pregunta": "¿Cuál es el origen de un polimorfismo de longitud de fragmento de restricción (RFLP)?",
+    "opciones": [
+      "Una mutación que elimina un sitio de restricción o genera uno nuevo, alterando el patrón de fragmentos",
+      "La desnaturalización de la endonucleasa por calor",
+      "La pérdida de la actividad de la DNA polimerasa",
+      "La metilación de la proteína de fusión"
+    ],
+    "correcta": 0,
+    "explicacion": "Los RFLP ocurren si una mutación hace irreconocible un sitio de restricción para su endonucleasa, o bien genera un sitio nuevo. Se usan en la detección prenatal de rasgo de células falciformes, talasemia β, fenilcetonuria y enfermedad de Huntington.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 70"
+  },
+  {
+    "pregunta": "¿Cómo se purifica por cromatografía de afinidad una proteína recombinante con “marca de His”?",
+    "opciones": [
+      "Se une a un soporte con un ion metálico divalente inmovilizado, como Ni²⁺",
+      "Se une a un soporte con glucosa inmovilizada",
+      "Se precipita con anticuerpos anti-trombina",
+      "Se separa únicamente por tamaño en una columna de filtración"
+    ],
+    "correcta": 0,
+    "explicacion": "La marca de His (seis histidinas consecutivas) se une a soportes que contienen un ion metálico divalente inmovilizado, como Ni²⁺ o Cd²⁺. Después, una proteasa específica como la trombina puede eliminar la marca.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 70"
+  },
+  {
+    "pregunta": "¿Para qué se usa la mutagénesis dirigida hacia sitio en el estudio de enzimas?",
+    "opciones": [
+      "Para cambiar residuos aminoacilo específicos alterando sus codones y así identificar su papel en la unión de sustrato y la catálisis",
+      "Para producir grandes cantidades de enzima en E. coli sin clonar el gen",
+      "Para cortar el DNA en secuencias de cuatro a seis pares de bases",
+      "Para medir la actividad enzimática a 340 nm"
+    ],
+    "correcta": 0,
+    "explicacion": "Se cambian residuos aminoacilo específicos al alterar sus codones. Por ejemplo, la inferencia de que un residuo es un ácido general puede probarse reemplazándolo por uno incapaz de donar un protón, junto con análisis cinéticos y cristalografía de rayos X.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 71"
+  },
+  {
+    "pregunta": "¿Qué observaron Thomas Cech y colaboradores al estudiar el procesamiento del rRNA 26S en Tetrahymena?",
+    "opciones": [
+      "Que el empalme requería una proteína específica que no pudo aislarse",
+      "Que el procesamiento procedía in vitro incluso en ausencia total de proteína",
+      "Que el rRNA era degradado por la catalasa",
+      "Que sólo ocurría en presencia de ATP y biotina"
+    ],
+    "correcta": 1,
+    "explicacion": "El procesamiento procedió sin contratiempos in vitro aun sin proteína; la actividad de empalme se rastreó a un segmento catalítico de RNA. Así se descubrió que el RNA puede ser catalítico (ribozimas).",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 71"
+  }
+]

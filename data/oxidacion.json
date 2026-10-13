@@ -1,0 +1,242 @@
+[
+  {
+    "pregunta": "¿Por qué los peroxisomas son un sitio donde el H₂O₂ se maneja con seguridad?",
+    "opciones": [
+      "Porque no contienen oxidasas",
+      "Porque las enzimas que originan H₂O₂ están agrupadas con la catalasa, la enzima que lo destruye",
+      "Porque sólo se encuentran en el eritrocito",
+      "Porque el H₂O₂ se convierte allí en superóxido"
+    ],
+    "correcta": 1,
+    "explicacion": "Los peroxisomas tienen alto contenido de oxidasas y de catalasa; de este modo, las enzimas que originan H₂O₂ están agrupadas con la enzima que lo destruye.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 123"
+  },
+  {
+    "pregunta": "Además de las oxidasas peroxisómicas, ¿cuáles se consideran fuentes adicionales de H₂O₂ según el texto?",
+    "opciones": [
+      "Los sistemas de transporte de electrones mitocondrial y microsómico, y la xantina oxidasa",
+      "Sólo la catalasa",
+      "Únicamente la superóxido dismutasa",
+      "El citocromo c oxidasa exclusivamente"
+    ],
+    "correcta": 0,
+    "explicacion": "El texto indica que los sistemas de transporte de electrones mitocondrial y microsómico, así como la xantina oxidasa, deben considerarse fuentes adicionales de H₂O₂.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 123"
+  },
+  {
+    "pregunta": "¿En qué dos pasos catalizan las oxigenasas la incorporación de oxígeno a un sustrato?",
+    "opciones": [
+      "1) el oxígeno se une al sitio activo de la enzima; 2) el oxígeno unido se reduce o transfiere al sustrato",
+      "1) el sustrato se oxida; 2) se libera H₂O₂",
+      "1) se forma superóxido; 2) la catalasa lo destruye",
+      "1) el ATP se hidroliza; 2) el oxígeno se une al fosfato"
+    ],
+    "correcta": 0,
+    "explicacion": "Las oxigenasas catalizan la incorporación de oxígeno en dos pasos: el oxígeno se une a la enzima en el sitio activo y después el oxígeno unido se reduce o transfiere al sustrato. Se dividen en dioxigenasas y monooxigenasas.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 123"
+  },
+  {
+    "pregunta": "¿Qué caracteriza a las dioxigenasas?",
+    "opciones": [
+      "Incorporan un solo átomo de oxígeno y reducen el otro a agua",
+      "Incorporan ambos átomos de oxígeno molecular al sustrato",
+      "Transfieren electrones de NADH a citocromo c",
+      "Eliminan peróxido de hidrógeno"
+    ],
+    "correcta": 1,
+    "explicacion": "Las dioxigenasas incorporan ambos átomos del oxígeno molecular al sustrato (A + O₂ → AO₂).",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 123"
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes dioxigenasas hepáticas utiliza hem, según el texto?",
+    "opciones": [
+      "Homogentisato dioxigenasa",
+      "3-Hidroxiantranilato dioxigenasa",
+      "L-triptófano dioxigenasa (triptófano pirrolasa)",
+      "Superóxido dismutasa"
+    ],
+    "correcta": 2,
+    "explicacion": "La homogentisato dioxigenasa y la 3-hidroxiantranilato dioxigenasa contienen hierro; la L-triptófano dioxigenasa utiliza hem.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 123"
+  },
+  {
+    "pregunta": "En la reacción de una monooxigenasa, ¿qué ocurre con el segundo átomo de oxígeno molecular y qué se requiere para ello?",
+    "opciones": [
+      "Se incorpora también al sustrato sin requerir nada más",
+      "Se reduce a agua, para lo cual se requiere un donador de electrón adicional o cosustrato (Z)",
+      "Se libera como oxígeno gaseoso",
+      "Se convierte en peróxido de hidrógeno por la catalasa"
+    ],
+    "correcta": 1,
+    "explicacion": "Las monooxigenasas incorporan sólo un átomo de oxígeno al sustrato (A–H → A–OH); el otro se reduce a agua, y para ello se necesita un donador de electrón adicional o cosustrato (Z).",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 123"
+  },
+  {
+    "pregunta": "¿Dónde se ubican principalmente los citocromos P450 según el capítulo?",
+    "opciones": [
+      "En el retículo endoplásmico del hígado y el intestino, y en las mitocondrias de algunos tejidos",
+      "Sólo en el citosol de los eritrocitos",
+      "Únicamente en los peroxisomas",
+      "Exclusivamente en la membrana externa mitocondrial"
+    ],
+    "correcta": 0,
+    "explicacion": "Los citocromos P450 están ubicados principalmente en el retículo endoplásmico en el hígado y el intestino, pero también se encuentran en las mitocondrias en algunos tejidos.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 123"
+  },
+  {
+    "pregunta": "¿Qué componentes tienen los sistemas P450 de clase I?",
+    "opciones": [
+      "Una reductasa con FAD, una proteína de hierro-azufre (Fe₂S₂) y la proteína hem P450",
+      "Citocromo P450 reductasa que pasa electrones de FADH₂ a FMN",
+      "Sólo citocromo b₅ y catalasa",
+      "Superóxido dismutasa y xantina oxidasa"
+    ],
+    "correcta": 0,
+    "explicacion": "Los sistemas clase I constan de una enzima reductasa que contiene FAD, una proteína de hierro-azufre (Fe₂S₂) y la proteína hem P450. Los clase II contienen citocromo P450 reductasa, que pasa electrones de FADH₂ a FMN.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 123 (figura 12-5)"
+  },
+  {
+    "pregunta": "¿Cuál es el resultado habitual del paso final del ciclo de la hidroxilasa del citocromo P450?",
+    "opciones": [
+      "El oxígeno se incorpora a H₂O y al sustrato, que por lo general queda hidroxilado",
+      "El sustrato se reduce a un alcano",
+      "Se genera ATP por fosforilación a nivel de sustrato",
+      "Se forma únicamente superóxido"
+    ],
+    "correcta": 0,
+    "explicacion": "En el paso final el oxígeno acepta los electrones del citocromo P450 y se reduce: un átomo se incorpora a H₂O y el otro al sustrato, lo que por lo general da lugar a su hidroxilación.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 124 (figura 12-6)"
+  },
+  {
+    "pregunta": "¿Qué papel desempeña el citocromo b₅ junto con los citocromos P450 en el retículo endoplásmico del hígado?",
+    "opciones": [
+      "Participa en el metabolismo y la destoxificación de fármacos, y también actúa como ácido graso desaturasa",
+      "Elimina el superóxido",
+      "Sintetiza ATP",
+      "Transporta ADP a la mitocondria"
+    ],
+    "correcta": 0,
+    "explicacion": "El citocromo b₅ es otra proteína con hem; junto con los P450 desempeña un papel importante en el metabolismo y la destoxificación de fármacos, y tiene además una función crucial como ácido graso desaturasa.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 124"
+  },
+  {
+    "pregunta": "¿Qué proporción de la modificación y degradación de fármacos que ocurre en el organismo se atribuye a los citocromos P450 y b₅ en conjunto?",
+    "opciones": [
+      "Alrededor de 5%",
+      "Alrededor de 25%",
+      "Alrededor de 50%",
+      "Alrededor de 75%"
+    ],
+    "correcta": 3,
+    "explicacion": "El texto indica que, juntos, los citocromos P450 y b₅ se encargan de alrededor de 75% de la modificación y degradación de fármacos que ocurre en el organismo.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 124"
+  },
+  {
+    "pregunta": "¿Por qué la hidroxilación de fármacos como la morfina o la anilina por los citocromos P450 favorece su excreción?",
+    "opciones": [
+      "Porque aumenta su solubilidad",
+      "Porque los vuelve más lipofílicos",
+      "Porque los convierte en superóxido",
+      "Porque los une de forma covalente a la albúmina"
+    ],
+    "correcta": 0,
+    "explicacion": "El benzpireno, la aminopirina, la anilina, la morfina y la benzfetamina son hidroxilados, lo que aumenta su solubilidad y ayuda a su excreción.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 124"
+  },
+  {
+    "pregunta": "¿Qué capacidad tienen muchos medicamentos, como el fenobarbital, respecto de los citocromos P450?",
+    "opciones": [
+      "Inducen su síntesis",
+      "Destruyen su grupo hem",
+      "Los convierten en dioxigenasas",
+      "Impiden su localización en el retículo endoplásmico"
+    ],
+    "correcta": 0,
+    "explicacion": "Muchos medicamentos, como el fenobarbital, tienen la capacidad para inducir la síntesis de citocromos P450.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 124"
+  },
+  {
+    "pregunta": "¿En cuáles tejidos se encuentran los sistemas de citocromo P450 mitocondriales que participan en la biosíntesis de hormonas esteroides a partir del colesterol?",
+    "opciones": [
+      "Corteza suprarrenal, testículos, ovarios y placenta",
+      "Eritrocitos y plaquetas",
+      "Cristalino y córnea",
+      "Músculo liso y tejido adiposo blanco"
+    ],
+    "correcta": 0,
+    "explicacion": "Los sistemas P450 mitocondriales se encuentran en tejidos esteroidogénicos como corteza suprarrenal, testículos, ovarios y placenta (hidroxilaciones en C22 y C20 y en las posiciones 11β y 18).",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 124"
+  },
+  {
+    "pregunta": "En el metabolismo de la vitamina D, ¿qué reacciones renales son catalizadas por enzimas P450?",
+    "opciones": [
+      "Las 1α- y 24-hidroxilaciones del 25-hidroxicolecalciferol",
+      "La carboxilación del colecalciferol",
+      "La reducción del 7-deshidrocolesterol",
+      "La esterificación del calcitriol"
+    ],
+    "correcta": 0,
+    "explicacion": "Los sistemas renales que catalizan 1α- y 24-hidroxilaciones del 25-hidroxicolecalciferol son enzimas P450. También lo son la colesterol 7α-hidroxilasa y la esterol 27-hidroxilasa de la biosíntesis de ácidos biliares.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 124"
+  },
+  {
+    "pregunta": "¿Cómo se forma el radical superóxido en tejidos, según el ejemplo del texto?",
+    "opciones": [
+      "Cuando flavinas reducidas, como las de la xantina oxidasa, se reoxidan de manera univalente por oxígeno molecular",
+      "Cuando la catalasa descompone el H₂O₂",
+      "Cuando el citocromo c oxidasa reduce O₂ completamente a agua",
+      "Cuando la superóxido dismutasa actúa sobre el agua"
+    ],
+    "correcta": 0,
+    "explicacion": "El superóxido se forma cuando flavinas reducidas (presentes, por ejemplo, en la xantina oxidasa) se vuelven a oxidar de manera univalente por oxígeno molecular, por transferencia de un solo electrón al O₂.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 124"
+  },
+  {
+    "pregunta": "¿Qué reacción cataliza la superóxido dismutasa (SOD)?",
+    "opciones": [
+      "Convierte el anión superóxido en oxígeno y peróxido de hidrógeno",
+      "Convierte el peróxido de hidrógeno en agua y oxígeno",
+      "Reduce el oxígeno a agua con cuatro electrones",
+      "Hidroxila esteroides"
+    ],
+    "correcta": 0,
+    "explicacion": "La SOD cataliza la conversión de O₂⁻ en oxígeno y peróxido de hidrógeno; en esta reacción el superóxido actúa como oxidante y como reductor. Se encuentra en las mitocondrias y el citosol de los tejidos aerobios.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 124"
+  },
+  {
+    "pregunta": "¿Qué ocurre con la exposición prolongada de animales a una atmósfera de oxígeno al 100%?",
+    "opciones": [
+      "Aumenta de forma adaptativa la SOD, sobre todo en pulmones, pero la exposición prolongada conduce a daño pulmonar y muerte",
+      "Disminuye la SOD y no hay daño",
+      "Los organismos se vuelven anaerobios obligados",
+      "Se detiene la formación de superóxido"
+    ],
+    "correcta": 0,
+    "explicacion": "La exposición a oxígeno al 100% causa un incremento adaptativo de SOD, sobre todo en los pulmones, pero la exposición prolongada conduce a daño pulmonar y muerte.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, pp. 124-125"
+  },
+  {
+    "pregunta": "¿Cómo actúan antioxidantes como el α-tocoferol (vitamina E) para reducir la toxicidad del oxígeno?",
+    "opciones": [
+      "Como recolectores de radicales libres",
+      "Como donadores de oxígeno",
+      "Como inductores de la xantina oxidasa",
+      "Como dioxigenasas"
+    ],
+    "correcta": 0,
+    "explicacion": "Los antioxidantes, por ejemplo el α-tocoferol (vitamina E), actúan como recolectores de radicales libres y reducen la toxicidad del oxígeno.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 125"
+  },
+  {
+    "pregunta": "Según el resumen del capítulo, ¿qué función desempeñan las hidroperoxidasas?",
+    "opciones": [
+      "Protegen al cuerpo contra el daño por radicales libres",
+      "Median la hidroxilación de fármacos y esteroides",
+      "Desempeñan funciones importantes en la respiración, junto con las deshidrogenasas",
+      "Eliminan la toxicidad del oxígeno únicamente en los eritrocitos"
+    ],
+    "correcta": 0,
+    "explicacion": "El resumen indica que las hidroperoxidasas protegen al cuerpo contra el daño por radicales libres; las oxidasas y deshidrogenasas tienen funciones importantes en la respiración, y las oxigenasas median la hidroxilación de fármacos y esteroides.",
+    "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 12, p. 125"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "pregunta": "Aun en ayuno prolongado, ¿qué porcentaje aproximado de sus necesidades de energía puede satisfacer el cerebro a partir de cuerpos cetónicos?",
+    "opciones": [
+      "No más de alrededor de 20%",
+      "Alrededor de 50%",
+      "Alrededor de 80%",
+      "100%"
+    ],
+    "correcta": 0,
+    "explicacion": "El texto señala que incluso en ayuno prolongado el cerebro no puede satisfacer más de alrededor de 20% de sus necesidades de energía a partir de cuerpos cetónicos, por lo que depende de la glucosa.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, p. 168"
+  },
+  {
+    "pregunta": "¿Por qué los eritrocitos terminan siempre la glucólisis en lactato?",
+    "opciones": [
+      "Porque carecen de mitocondrias, donde ocurren las reacciones de oxidación del piruvato",
+      "Porque carecen de glucosa",
+      "Porque poseen un exceso de oxígeno",
+      "Porque su lactato deshidrogenasa es inhibida por el fluoruro"
+    ],
+    "correcta": 0,
+    "explicacion": "Los eritrocitos carecen de mitocondrias, dependen por completo de la glucosa y la metabolizan por glucólisis anaeróbica; las reacciones de oxidación del piruvato son mitocondriales.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, pp. 168 y 171"
+  },
+  {
+    "pregunta": "¿Cómo se describe la actividad glucolítica del músculo cardiaco y su supervivencia en isquemia?",
+    "opciones": [
+      "Actividad glucolítica relativamente baja y poca supervivencia en condiciones de isquemia",
+      "Actividad glucolítica muy alta y gran supervivencia en isquemia",
+      "Ausencia total de glucólisis",
+      "Actividad glucolítica igual a la del músculo estriado blanco"
+    ],
+    "correcta": 0,
+    "explicacion": "El músculo cardiaco está adaptado para el desempeño aerobio, tiene actividad glucolítica relativamente baja y poca supervivencia en condiciones de isquemia.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, p. 168"
+  },
+  {
+    "pregunta": "En las células cancerosas de crecimiento rápido, ¿qué ocurre con la glucólisis y cuál es una consecuencia local descrita en el texto?",
+    "opciones": [
+      "Procede a un índice alto, y el lactato exportado produce un ambiente local algo ácido en el tumor",
+      "Se detiene por completo",
+      "Sólo produce etanol",
+      "Genera exclusivamente acetil-CoA"
+    ],
+    "correcta": 0,
+    "explicacion": "En esas células la glucólisis procede a un índice alto, formando grandes cantidades de piruvato que se reduce a lactato y se exporta, lo que produce un ambiente local hasta cierto punto ácido en el tumor.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, p. 168"
+  },
+  {
+    "pregunta": "En condiciones anaeróbicas, ¿cómo se permite que la glucólisis continúe pese a que el NADH no puede reoxidarse en la cadena respiratoria?",
+    "opciones": [
+      "Reduciendo el piruvato a lactato, lo que reoxida el NADH",
+      "Oxidando el lactato a piruvato",
+      "Aumentando la producción de acetil-CoA",
+      "Deteniendo la gliceraldehído 3-fosfato deshidrogenasa"
+    ],
+    "correcta": 0,
+    "explicacion": "El NADH se reoxida al reducir piruvato a lactato (lactato deshidrogenasa), lo que regenera NAD⁺ y hace posible que otra molécula de glucosa pase por glucólisis.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, pp. 168 y 171"
+  },
+  {
+    "pregunta": "Según el cuadro 17-1, ¿cuántos ATP por mol de glucosa se obtienen en total en condiciones aerobias y en anaerobias?",
+    "opciones": [
+      "32 en aerobias y 2 en anaerobias",
+      "2 en aerobias y 32 en anaerobias",
+      "38 en aerobias y 4 en anaerobias",
+      "7 en aerobias y 25 en anaerobias"
+    ],
+    "correcta": 0,
+    "explicacion": "El cuadro 17-1 indica un total de 32 ATP por mol de glucosa en condiciones aerobias y 2 en anaerobias; por eso debe metabolizarse mucha más glucosa en anaerobiosis.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, p. 169 (cuadro 17-1)"
+  },
+  {
+    "pregunta": "¿Qué distingue a la glucocinasa de la hexocinasa?",
+    "opciones": [
+      "La glucocinasa tiene una Km mucho más alta que la concentración intracelular normal de glucosa, y en el hígado elimina glucosa de la sangre portal tras una comida",
+      "La glucocinasa tiene una Km más baja que la hexocinasa",
+      "La glucocinasa es inhibida por su producto, glucosa 6-fosfato, igual que la hexocinasa",
+      "La glucocinasa se encuentra en los eritrocitos"
+    ],
+    "correcta": 0,
+    "explicacion": "La hexocinasa tiene afinidad alta (Km baja) por la glucosa y está saturada en el hígado en condiciones normales. La glucocinasa tiene una Km mucho más alta; su función hepática es eliminar glucosa de la sangre portal después de una comida.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, pp. 169-170"
+  },
+  {
+    "pregunta": "En las células β de los islotes pancreáticos, ¿qué sucede tras una mayor fosforilación de glucosa por la glucocinasa?",
+    "opciones": [
+      "Aumenta la formación de ATP, se cierra un canal de ATP-potasio, hay despolarización y se libera insulina",
+      "Disminuye el ATP y se abre el canal de potasio",
+      "Se inhibe la glucólisis",
+      "Se bloquea el canal de calcio y cesa la secreción de insulina"
+    ],
+    "correcta": 0,
+    "explicacion": "Más glucólisis lleva a más ATP; esto cierra un canal de ATP-potasio, causa despolarización y apertura de un canal de calcio sensible a voltaje. El ingreso de calcio provoca la fusión de los gránulos de insulina con la membrana y la liberación de insulina.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, p. 170"
+  },
+  {
+    "pregunta": "¿Cómo se regula la fosfofructocinasa según el texto?",
+    "opciones": [
+      "Está significativamente inhibida a concentraciones intracelulares normales de ATP, y esa inhibición se alivia con 5’ AMP",
+      "Es activada por ATP y inhibida por AMP",
+      "No está sujeta a regulación alostérica",
+      "Sólo es regulada por insulina"
+    ],
+    "correcta": 0,
+    "explicacion": "La fosfofructocinasa se inhibe de manera importante con las concentraciones normales de ATP; el 5’ AMP, que se forma al acumularse ADP, alivia con rapidez la inhibición y señala la necesidad de una glucólisis aumentada.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, p. 172"
+  },
+  {
+    "pregunta": "¿Qué reacción cataliza la aldolasa en la glucólisis?",
+    "opciones": [
+      "Divide la fructosa 1,6-bisfosfato en gliceraldehído 3-fosfato y dihidroxiacetona fosfato",
+      "Isomeriza glucosa 6-fosfato a fructosa 6-fosfato",
+      "Convierte 3-fosfoglicerato en 2-fosfoglicerato",
+      "Oxida gliceraldehído 3-fosfato a 1,3-bisfosfoglicerato"
+    ],
+    "correcta": 0,
+    "explicacion": "La aldolasa divide la fructosa 1,6-bisfosfato en dos triosa fosfatos: gliceraldehído 3-fosfato y dihidroxiacetona fosfato, que la fosfotriosa isomerasa interconvierte.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, p. 170"
+  },
+  {
+    "pregunta": "¿Qué ocurre en el sitio activo de la gliceraldehído 3-fosfato deshidrogenasa y qué la inhibe?",
+    "opciones": [
+      "El sustrato se combina con un grupo —SH formando un tiohemiacetal que se oxida a tiol éster con reducción de NAD⁺; la enzima es inhibida por el yodoacetato",
+      "El sustrato se une a un ion Mg²⁺; la enzima es inhibida por el fluoruro",
+      "El sustrato se fosforila con ATP; la enzima es inhibida por el arsenato",
+      "El sustrato se descarboxila; la enzima es inhibida por el malonato"
+    ],
+    "correcta": 0,
+    "explicacion": "El sustrato se combina con un grupo —SH de cisteína, formando un tiohemiacetal que se oxida a tiol éster (los hidrógenos pasan al NAD⁺). La enzima es inhibida por el veneno de grupos —SH yodoacetato, por lo que éste inhibe la glucólisis.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, pp. 170-171 (figura 17-3)"
+  },
+  {
+    "pregunta": "¿En qué se basa la toxicidad del arsénico en la glucólisis?",
+    "opciones": [
+      "El arsenato compite con el fosfato inorgánico en la reacción de la gliceraldehído 3-fosfato deshidrogenasa, y el producto se hidroliza a 3-fosfoglicerato sin formar ATP",
+      "El arsenato inhibe la enolasa",
+      "El arsenato inhibe de forma irreversible la hexocinasa",
+      "El arsenato bloquea el transporte de glucosa"
+    ],
+    "correcta": 0,
+    "explicacion": "El arsenato compite con el Pi y da 1-arseno-3-fosfoglicerato, que se hidroliza de forma espontánea a 3-fosfoglicerato sin formar ATP.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, p. 171"
+  },
+  {
+    "pregunta": "¿Por qué las muestras de sangre para medir glucosa se toman en tubos con fluoruro?",
+    "opciones": [
+      "Porque el fluoruro inhibe la enolasa y, así, la glucólisis",
+      "Porque el fluoruro activa la hexocinasa",
+      "Porque el fluoruro oxida la glucosa",
+      "Porque el fluoruro inhibe la piruvato cinasa de forma específica"
+    ],
+    "correcta": 0,
+    "explicacion": "La enolasa, que cataliza la deshidratación a fosfoenolpiruvato, es inhibida por el fluoruro; al tomar la muestra en tubos con fluoruro se inhibe la glucólisis y se evita el consumo de glucosa en la muestra.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, p. 171"
+  },
+  {
+    "pregunta": "¿Qué enzimas catalizan las tres reacciones desequilibradas que son los principales sitios de regulación de la glucólisis?",
+    "opciones": [
+      "Hexocinasa (y glucocinasa), fosfofructocinasa y piruvato cinasa",
+      "Aldolasa, enolasa y fosfoglicerato cinasa",
+      "Fosfohexosa isomerasa, aldolasa y lactato deshidrogenasa",
+      "Gliceraldehído 3-fosfato deshidrogenasa, fosfoglicerato mutasa y enolasa"
+    ],
+    "correcta": 0,
+    "explicacion": "Aunque la mayor parte de las reacciones son reversibles, tres son muy exergónicas y fisiológicamente irreversibles: las catalizadas por hexocinasa (y glucocinasa), fosfofructocinasa y piruvato cinasa.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, p. 172"
+  },
+  {
+    "pregunta": "¿Por qué la fructosa puede dar más piruvato y acetil-CoA que el necesario para la formación de ATP?",
+    "opciones": [
+      "Porque entra a la glucólisis como fructosa 1-fosfato y evita los principales pasos reguladores",
+      "Porque inhibe la fosfofructocinasa",
+      "Porque se convierte directamente en lactato",
+      "Porque no requiere ninguna enzima"
+    ],
+    "correcta": 0,
+    "explicacion": "La fructosa entra por fosforilación a fructosa 1-fosfato y evita los principales pasos reguladores. En hígado y tejido adiposo esto aumenta la lipogénesis, y una ingestión alta puede ser un factor en la aparición de obesidad.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, p. 172"
+  },
+  {
+    "pregunta": "¿Cuál es la utilidad de la vía del 2,3-bisfosfoglicerato en los eritrocitos?",
+    "opciones": [
+      "Rinde cero ATP neto, pero proporciona 2,3-bisfosfoglicerato, que disminuye la afinidad de la hemoglobina por el oxígeno",
+      "Aumenta el rendimiento neto de ATP a 4",
+      "Produce lactato sin NADH",
+      "Aumenta la afinidad de la hemoglobina por el oxígeno"
+    ],
+    "correcta": 0,
+    "explicacion": "Se evita la reacción de la fosfoglicerato cinasa mediante la bisfosfoglicerato mutasa; no hay rendimiento neto de ATP por glucólisis, pero el 2,3-bisfosfoglicerato se une a la hemoglobina y hace que el oxígeno esté más disponible para los tejidos.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, p. 172 (figura 17-4)"
+  },
+  {
+    "pregunta": "En condiciones aeróbicas, ¿cuál es el destino del piruvato formado en el citosol?",
+    "opciones": [
+      "Se transporta a la mitocondria y se descarboxila de manera oxidativa a acetil-CoA mediante el complejo de piruvato deshidrogenasa",
+      "Se convierte siempre en etanol",
+      "Se reduce a lactato y se exporta",
+      "Se convierte en glucosa 6-fosfato dentro del citosol"
+    ],
+    "correcta": 0,
+    "explicacion": "El piruvato es transportado a la mitocondria por un simportador de protón y allí se descarboxila oxidativamente a acetil-CoA por el complejo de piruvato deshidrogenasa; después se oxida a CO₂ en el ciclo del ácido cítrico.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, pp. 171-172"
+  },
+  {
+    "pregunta": "¿Cómo se regula la piruvato deshidrogenasa por modificación covalente?",
+    "opciones": [
+      "La fosforilación por una cinasa (activada por aumentos de las proporciones ATP/ADP, acetil-CoA/CoA y NADH/NAD⁺) disminuye su actividad, y la desfosforilación por una fosfatasa la aumenta",
+      "La fosforilación aumenta su actividad y la desfosforilación la disminuye",
+      "Sólo se regula por la concentración de oxígeno",
+      "No está sujeta a modificación covalente"
+    ],
+    "correcta": 0,
+    "explicacion": "La fosforilación de tres residuos de serina del componente piruvato deshidrogenasa disminuye la actividad; la desfosforilación la aumenta. Además, la enzima es inhibida por sus productos, acetil-CoA y NADH.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, pp. 173-174 (figura 17-6)"
+  },
+  {
+    "pregunta": "¿Por qué muchos alcohólicos presentan acidosis pirúvica y láctica potencialmente mortal?",
+    "opciones": [
+      "Por deficiencia de tiamina (dieta inadecuada y absorción inhibida por el alcohol), que altera la piruvato deshidrogenasa",
+      "Por exceso de tiamina",
+      "Por deficiencia de glucocinasa",
+      "Por exceso de oxígeno tisular"
+    ],
+    "correcta": 0,
+    "explicacion": "Muchos alcohólicos tienen deficiencia de tiamina, tanto por dieta inadecuada como porque el alcohol inhibe su absorción; al ser la tiamina difosfato cofactor de la piruvato deshidrogenasa, se acumula piruvato y aparece acidosis láctica. La arsenita y los iones mercúricos también inhiben la enzima al reaccionar con los grupos —SH del ácido lipoico.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, pp. 172-174"
+  },
+  {
+    "pregunta": "Cuando la producción de lactato es alta (ejercicio vigoroso, choque séptico, caquexia por cáncer), ¿qué ocurre con gran parte de él?",
+    "opciones": [
+      "Se utiliza en el hígado para gluconeogénesis, lo que aumenta el índice metabólico para proporcionar el ATP y GTP necesarios",
+      "Se excreta íntegramente sin metabolizarse",
+      "Se convierte en etanol",
+      "Se almacena como glucógeno en el eritrocito"
+    ],
+    "correcta": 0,
+    "explicacion": "Gran parte del lactato se utiliza en el hígado para gluconeogénesis, proceso costoso en energía que incrementa el índice metabólico; el mayor consumo de oxígeno se observa como deuda de oxígeno tras el ejercicio vigoroso.",
+    "referencia": "HARPERCap 17 GUCOLISIS.pdf · Cap. 17, p. 172"
+  }
+]

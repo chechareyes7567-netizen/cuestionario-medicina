@@ -1,0 +1,242 @@
+[
+  {
+    "pregunta": "Según el documento, ¿de dónde proviene el nombre “P450”?",
+    "opciones": [
+      "De que los complejos con monóxido de carbono absorben luz a una longitud de onda de alrededor de 450 nm",
+      "De que poseen 450 aminoácidos exactos",
+      "De que se descubrieron en 1950",
+      "De que actúan a 450 mV de potencial redox"
+    ],
+    "correcta": 0,
+    "explicacion": "El documento señala que los complejos con monóxido de carbono absorben luz en una longitud de onda alrededor de los 450 nm, de allí su nombre.",
+    "referencia": "Citocromos 2026.pdf · p. 1 (del PDF)"
+  },
+  {
+    "pregunta": "¿Cómo define el documento al citocromo P450?",
+    "opciones": [
+      "Una superfamilia de hemoproteínas unidas a membrana, de alrededor de 400-500 aminoácidos, con el grupo hem prostético en su sitio activo",
+      "Una proteína soluble sin grupo hem",
+      "Un ácido nucleico catalítico",
+      "Un carbohidrato de membrana"
+    ],
+    "correcta": 0,
+    "explicacion": "Son hemoproteínas unidas a membrana, constituidas por alrededor de 400-500 aminoácidos, con el grupo hem prostético en su sitio activo.",
+    "referencia": "Citocromos 2026.pdf · p. 1 (del PDF)"
+  },
+  {
+    "pregunta": "¿Dónde se localizan sobre todo los citocromos P450, según el documento?",
+    "opciones": [
+      "En el retículo endoplásmico del hígado y el intestino, los riñones y también en las mitocondrias de otros tejidos",
+      "Sólo en los lisosomas",
+      "Únicamente en el núcleo celular",
+      "En la membrana plasmática de los eritrocitos"
+    ],
+    "correcta": 0,
+    "explicacion": "Los P450 se localizan sobre todo en el retículo endoplásmico del hígado y el intestino, los riñones y también en las mitocondrias de otros tejidos.",
+    "referencia": "Citocromos 2026.pdf · p. 2 (del PDF)"
+  },
+  {
+    "pregunta": "¿Cuál es la función principal de las enzimas CYP en los hepatocitos?",
+    "opciones": [
+      "Metabolizar una gran cantidad de xenobióticos y eliminar compuestos potencialmente tóxicos",
+      "Sintetizar ATP",
+      "Transportar oxígeno",
+      "Replicar el DNA"
+    ],
+    "correcta": 0,
+    "explicacion": "Predominantemente en los hepatocitos, su función principal es metabolizar una gran cantidad de xenobióticos y eliminar compuestos potencialmente tóxicos; por eso su característica más relevante está en la farmacocinética y el metabolismo de medicamentos.",
+    "referencia": "Citocromos 2026.pdf · p. 2 (del PDF)"
+  },
+  {
+    "pregunta": "En la nomenclatura CYP2B10 (figura 2), ¿qué indica la letra “B”?",
+    "opciones": [
+      "La subfamilia del gen",
+      "La familia del gen",
+      "El miembro individual de la subfamilia",
+      "El símbolo del citocromo"
+    ],
+    "correcta": 0,
+    "explicacion": "En CYP2B10, CYP es el símbolo del citocromo, 2 la familia del gen, B la subfamilia y 10 el miembro individual de la subfamilia.",
+    "referencia": "Citocromos 2026.pdf · p. 2 (del PDF), figura 2"
+  },
+  {
+    "pregunta": "Según el documento, ¿cuál de estas isoenzimas está entre las seis responsables de alrededor del 90% del metabolismo de los fármacos?",
+    "opciones": [
+      "CYP2D6",
+      "CYP4A11",
+      "CYP17A1",
+      "CYP51A1"
+    ],
+    "correcta": 0,
+    "explicacion": "El documento lista seis isoenzimas responsables del 90% del metabolismo de fármacos: CYP1A2, CYP2C9, CYP2C19, CYP2D6, CYP2E1 y CYP3A4. Las otras opciones no aparecen en esa lista.",
+    "referencia": "Citocromos 2026.pdf · p. 2 (del PDF)"
+  },
+  {
+    "pregunta": "En humanos, ¿qué proporciones se atribuyen a uno o más citocromos según el documento?",
+    "opciones": [
+      "Casi 80% del metabolismo oxidativo y aproximadamente 50% de la eliminación de medicamentos de uso común",
+      "10% del metabolismo oxidativo y 5% de la eliminación de medicamentos",
+      "50% del metabolismo oxidativo y 90% de la eliminación de medicamentos",
+      "Casi 100% de ambos"
+    ],
+    "correcta": 0,
+    "explicacion": "El documento indica que casi el 80% del metabolismo oxidativo y aproximadamente el 50% de la eliminación de medicamentos de uso común se atribuyen a uno o más citocromos.",
+    "referencia": "Citocromos 2026.pdf · p. 2 (del PDF)"
+  },
+  {
+    "pregunta": "¿En qué se especializan las enzimas CYP mitocondriales y en qué las del retículo endoplásmico, a nivel celular?",
+    "opciones": [
+      "Las mitocondriales, en sustancias internas (hormonas esteroideas, ácidos grasos); las del retículo endoplásmico, en sustancias externas como fármacos",
+      "Las mitocondriales, en fármacos; las del retículo endoplásmico, en hormonas esteroideas",
+      "Ambas, exclusivamente en fármacos",
+      "Ninguna participa en metabolismo de sustancias"
+    ],
+    "correcta": 0,
+    "explicacion": "Las enzimas mitocondriales se enfocan en sustancias internas, como el metabolismo de hormonas esteroideas y la regulación de ácidos grasos; las del retículo endoplásmico se especializan en metabolizar sustancias externas, como fármacos.",
+    "referencia": "Citocromos 2026.pdf · p. 3 (del PDF)"
+  },
+  {
+    "pregunta": "¿Qué consecuencia tiene que un fármaco actúe como inductor de CYP sobre otros medicamentos que usan la misma isoenzima?",
+    "opciones": [
+      "Se metabolizan más rápido y se excretan antes, por lo que sus niveles plasmáticos pueden no alcanzar el umbral terapéutico",
+      "Se acumulan hasta niveles tóxicos",
+      "Dejan de metabolizarse por completo",
+      "No hay ningún efecto"
+    ],
+    "correcta": 0,
+    "explicacion": "Un inductor acelera el metabolismo de los fármacos que usan la misma isoenzima; los niveles plasmáticos pueden quedar por debajo del umbral terapéutico, lo que lleva al fracaso del tratamiento.",
+    "referencia": "Citocromos 2026.pdf · p. 3 (del PDF)"
+  },
+  {
+    "pregunta": "¿Qué riesgo tiene un fármaco que actúa como inhibidor de CYP para otros medicamentos metabolizados por la misma isoenzima?",
+    "opciones": [
+      "Que se acumulen a niveles tóxicos, con riesgo de sobredosis o efectos adversos",
+      "Que se eliminen demasiado rápido",
+      "Que se vuelvan más hidrofílicos al instante",
+      "Que pierdan su unión a proteínas por completo"
+    ],
+    "correcta": 0,
+    "explicacion": "Si un fármaco inhibe una CYP, otros medicamentos que usan la misma isoenzima pueden acumularse a niveles tóxicos, con riesgo de sobredosis o efectos adversos.",
+    "referencia": "Citocromos 2026.pdf · p. 3 (del PDF)"
+  },
+  {
+    "pregunta": "¿Cuál es el propósito general del metabolismo de los medicamentos según el documento?",
+    "opciones": [
+      "Transformar compuestos exógenos en sustancias más hidrofílicas (solubles en agua) para que los riñones las filtren y excreten",
+      "Volver los fármacos más liposolubles para acumularlos",
+      "Convertirlos en ATP",
+      "Impedir que lleguen al hígado"
+    ],
+    "correcta": 0,
+    "explicacion": "El metabolismo de fármacos busca administrar de forma segura el constituyente activo y transformar los compuestos exógenos en sustancias más hidrofílicas; una vez solubles en agua, los fármacos y sus metabolitos viajan a los riñones, donde son filtrados y excretados.",
+    "referencia": "Citocromos 2026.pdf · p. 3 (del PDF)"
+  },
+  {
+    "pregunta": "Según la clasificación de alelos CYP del documento, ¿cómo se clasifica a quien hereda dos alelos variantes?",
+    "opciones": [
+      "Metabolizador pobre",
+      "Metabolizador extenso (normal)",
+      "Metabolizador intermedio",
+      "Metabolizador ultrarrápido"
+    ],
+    "correcta": 0,
+    "explicacion": "Dos alelos tipo silvestre: metabolizador extenso (normal); dos alelos variantes: metabolizador pobre; un alelo silvestre y uno variante: metabolizador intermedio.",
+    "referencia": "Citocromos 2026.pdf · p. 3 (del PDF)"
+  },
+  {
+    "pregunta": "¿Qué caracteriza a los metabolizadores ultrarrápidos según el documento?",
+    "opciones": [
+      "Heredan más de dos alelos silvestres y presentan efectos farmacológicos particulares",
+      "Heredan dos alelos variantes",
+      "Carecen de enzimas CYP",
+      "Heredan un alelo silvestre y uno variante"
+    ],
+    "correcta": 0,
+    "explicacion": "El documento describe un grupo de metabolizadores ultrarrápidos que heredan más de dos alelos silvestres y presentan efectos farmacológicos particulares.",
+    "referencia": "Citocromos 2026.pdf · p. 3 (del PDF)"
+  },
+  {
+    "pregunta": "¿Qué puede manifestar un metabolizador pobre, según el ejemplo del documento?",
+    "opciones": [
+      "Toxicidad con dosis que un metabolizador extenso toleraría sin problemas",
+      "Resistencia a cualquier dosis",
+      "Ausencia de efectos con dosis altas",
+      "Eliminación inmediata de todos los fármacos"
+    ],
+    "correcta": 0,
+    "explicacion": "Los polimorfismos genéticos explican por qué algunas personas muestran tolerancias distintas a un mismo medicamento: un metabolizador pobre puede manifestar toxicidad con dosis que un metabolizador extenso toleraría sin problemas.",
+    "referencia": "Citocromos 2026.pdf · pp. 3-4 (del PDF)"
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes factores se menciona entre los que influyen significativamente en la expresión de isoenzimas CYP?",
+    "opciones": [
+      "Infecciones e inflamación",
+      "El color de los ojos",
+      "La estatura",
+      "El grupo sanguíneo ABO"
+    ],
+    "correcta": 0,
+    "explicacion": "El documento menciona edad, sexo, hormonas, infecciones/inflamación y factores ambientales como factores que influyen significativamente en la expresión de isoenzimas CYP.",
+    "referencia": "Citocromos 2026.pdf · p. 4 (del PDF)"
+  },
+  {
+    "pregunta": "Según el documento, ¿qué se ha observado respecto de las mujeres y las enzimas CYP?",
+    "opciones": [
+      "Expresan una concentración más alta de enzimas CYP, lo que contribuye a que metabolicen los fármacos más rápidamente que los hombres",
+      "Expresan menos enzimas CYP y metabolizan más lento",
+      "No hay diferencias entre sexos",
+      "Sólo expresan CYP mitocondriales"
+    ],
+    "correcta": 0,
+    "explicacion": "Se ha observado que las mujeres expresan una concentración más alta de enzimas CYP, una de las razones por las que metabolizan los fármacos más rápidamente que los hombres.",
+    "referencia": "Citocromos 2026.pdf · p. 4 (del PDF)"
+  },
+  {
+    "pregunta": "Como monooxigenasas, ¿cuál es la función principal de las enzimas CYP?",
+    "opciones": [
+      "Añadir un átomo de oxígeno al sustrato",
+      "Añadir dos átomos de oxígeno al sustrato",
+      "Eliminar el oxígeno del sustrato",
+      "Transferir fosfato al sustrato"
+    ],
+    "correcta": 0,
+    "explicacion": "El documento indica que, como monooxigenasas, su función principal es añadir un átomo de oxígeno al sustrato.",
+    "referencia": "Citocromos 2026.pdf · p. 4 (del PDF)"
+  },
+  {
+    "pregunta": "Respecto del mecanismo catalítico del CYP, ¿en qué estado del hierro se une el oxígeno al grupo hemo?",
+    "opciones": [
+      "En estado ferroso (Fe²⁺), después de la reducción del hierro",
+      "En estado férrico (Fe³⁺) sin reducción previa",
+      "En estado metálico (Fe⁰)",
+      "Sin participación del hierro"
+    ],
+    "correcta": 0,
+    "explicacion": "El oxígeno se une al grupo hemo en su estado ferroso (Fe²⁺), después de la reducción del hierro por electrones que las reductasas transfieren desde el NADPH.",
+    "referencia": "Citocromos 2026.pdf · p. 5 (del PDF)"
+  },
+  {
+    "pregunta": "Según el documento, ¿qué ocurre con los citocromos hepáticos P450 y su actividad metabólica en procesos infecciosos e inflamatorios?",
+    "opciones": [
+      "Disminuyen",
+      "Aumentan siempre",
+      "No cambian",
+      "Se vuelven exclusivamente mitocondriales"
+    ],
+    "correcta": 0,
+    "explicacion": "El documento señala que, en procesos inflamatorios e infecciosos, los citocromos hepáticos P450 y su actividad metabólica disminuyen, asociado a las citoquinas inflamatorias y a vías como la inducción de la óxido nítrico sintasa (NOS2).",
+    "referencia": "Citocromos 2026.pdf · p. 5 (del PDF)"
+  },
+  {
+    "pregunta": "Según el documento, ¿qué ocurre con el citocromo c durante la apoptosis?",
+    "opciones": [
+      "La mitocondria se edematiza y el citocromo c pasa al citosol, donde interactúa con Apaf-1 y activa las caspasas",
+      "El citocromo c se degrada dentro de la matriz mitocondrial",
+      "El citocromo c se une al ADN y lo protege",
+      "El citocromo c se transforma en citocromo P450"
+    ],
+    "correcta": 0,
+    "explicacion": "En condiciones normales el citocromo c está en la membrana mitocondrial; en la apoptosis, la mitocondria se edematiza y el citocromo c pasa al citosol, interactúa con Apaf-1, activa las caspasas y luego ocurre la fragmentación del ADN.",
+    "referencia": "Citocromos 2026.pdf · p. 5 (del PDF)"
+  }
+]
