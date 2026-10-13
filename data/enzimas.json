@@ -84,7 +84,7 @@
     "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 63"
   },
   {
-    "pregunta": "¿Qué propone el modelo de adaptación inducida de Koshland?",
+    "pregunta": "¿Qué propone el modelo de adaptación inducida para la unión del sustrato a la enzima?",
     "opciones": [
       "Que el sitio activo es rígido, como una cerradura que sólo admite una llave",
       "Que al unirse el sustrato se induce un cambio conformacional en la enzima, como una mano dentro de un guante",
@@ -92,7 +92,7 @@
       "Que el sustrato modifica de forma permanente la secuencia de aminoácidos"
     ],
     "correcta": 1,
-    "explicacion": "Koshland propuso que, al aproximarse y unirse los sustratos, inducen un cambio conformacional en la enzima (y ella induce cambios recíprocos en el sustrato), lo que supera la rigidez implícita del modelo de cerradura y llave de Fischer.",
+    "explicacion": "Propone que, al aproximarse y unirse los sustratos, inducen un cambio conformacional en la enzima (y ella induce cambios recíprocos en el sustrato), a diferencia de la rigidez del modelo de cerradura y llave; es como una mano dentro de un guante.",
     "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 64"
   },
   {
@@ -228,7 +228,7 @@
     "referencia": "HarperCap7y12 Enzimas.pdf · Cap. 7, p. 71"
   },
   {
-    "pregunta": "¿Qué observaron Thomas Cech y colaboradores al estudiar el procesamiento del rRNA 26S en Tetrahymena?",
+    "pregunta": "Al estudiar in vitro el procesamiento del rRNA 26S de Tetrahymena, ¿qué se observó?",
     "opciones": [
       "Que el empalme requería una proteína específica que no pudo aislarse",
       "Que el procesamiento procedía in vitro incluso en ausencia total de proteína",

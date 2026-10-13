@@ -1,140 +1,240 @@
 [
   {
     "pregunta": "¿Cómo se describe la permeabilidad de las dos membranas mitocondriales?",
-    "opciones": ["La externa es permeable a casi todos los metabolitos; la interna es selectivamente permeable", "Ambas son libremente permeables a iones y protones", "La externa es impermeable y la interna es permeable a todo", "Ambas son impermeables a cualquier metabolito"],
+    "opciones": [
+      "La externa es permeable a casi todos los metabolitos; la interna es selectivamente permeable",
+      "Ambas son libremente permeables a iones y protones",
+      "La externa es impermeable y la interna es permeable a todo",
+      "Ambas son impermeables a cualquier metabolito"
+    ],
     "correcta": 0,
     "explicacion": "La matriz mitocondrial está encerrada por una doble membrana: la externa es permeable a casi todos los metabolitos y la interna es selectivamente permeable.",
     "referencia": "HarperCap 13.pdf · Cap. 13, p. 127"
   },
   {
     "pregunta": "¿Dónde se encuentran las enzimas adenilil cinasa y creatina cinasa?",
-    "opciones": ["En la matriz mitocondrial", "En el espacio intermembrana", "En la membrana interna, junto con los complejos de la cadena respiratoria", "En la membrana externa, junto con la acil-CoA sintetasa"],
+    "opciones": [
+      "En la matriz mitocondrial",
+      "En el espacio intermembrana",
+      "En la membrana interna, junto con los complejos de la cadena respiratoria",
+      "En la membrana externa, junto con la acil-CoA sintetasa"
+    ],
     "correcta": 1,
     "explicacion": "La acil-CoA sintetasa y la glicerolfosfato aciltransferasa están en la membrana externa; la adenilil cinasa y la creatina cinasa, en el espacio intermembrana. La cardiolipina se concentra en la membrana interna, junto con las enzimas de la cadena respiratoria y la ATP sintasa.",
     "referencia": "HarperCap 13.pdf · Cap. 13, p. 127"
   },
   {
     "pregunta": "¿Qué permite el transportador de nucleótido de adenina de la membrana mitocondrial interna?",
-    "opciones": ["El intercambio de ATP y ADP, no así de AMP", "El intercambio de AMP por ATP", "El paso de NADH al interior de la mitocondria", "El transporte de oxígeno hacia la matriz"],
+    "opciones": [
+      "El intercambio de ATP y ADP, no así de AMP",
+      "El intercambio de AMP por ATP",
+      "El paso de NADH al interior de la mitocondria",
+      "El transporte de oxígeno hacia la matriz"
+    ],
     "correcta": 0,
     "explicacion": "El transportador permite el intercambio de ATP y ADP, no así de AMP. Es vital para que el ATP salga de la mitocondria y regrese el ADP para producir más ATP. Como se eliminan cuatro cargas negativas de la matriz por cada tres introducidas, la fuerza motriz de protón favorece la exportación de ATP.",
     "referencia": "HarperCap 13.pdf · Cap. 13, pp. 133-134"
   },
   {
     "pregunta": "¿Qué cataliza el complejo I (NADH-Q oxidorreductasa) y por qué centros pasan los electrones?",
-    "opciones": ["La transferencia de electrones de NADH a la coenzima Q, pasando por FMN y centros Fe-S", "La transferencia de electrones de succinato a Q, pasando por FAD", "La reducción de O₂ a agua, pasando por hem a y a₃", "La transferencia de electrones de Q reducida a citocromo c mediante el ciclo Q"],
+    "opciones": [
+      "La transferencia de electrones de NADH a la coenzima Q, pasando por FMN y centros Fe-S",
+      "La transferencia de electrones de succinato a Q, pasando por FAD",
+      "La reducción de O₂ a agua, pasando por hem a y a₃",
+      "La transferencia de electrones de Q reducida a citocromo c mediante el ciclo Q"
+    ],
     "correcta": 0,
     "explicacion": "Los electrones se transfieren primero de NADH a FMN, luego a una serie de centros Fe-S y por último a Q, junto con la transferencia de cuatro H⁺ a través de la membrana.",
     "referencia": "HarperCap 13.pdf · Cap. 13, p. 128"
   },
   {
     "pregunta": "¿Cómo ingresan al sistema los electrones del FADH₂ formado durante la conversión de succinato en fumarato?",
-    "opciones": ["Mediante el complejo II (succinato-Q reductasa), pasando por centros Fe-S hacia Q", "Mediante el complejo I", "Directamente al citocromo c", "Directamente al oxígeno por el complejo IV"],
+    "opciones": [
+      "Mediante el complejo II (succinato-Q reductasa), pasando por centros Fe-S hacia Q",
+      "Mediante el complejo I",
+      "Directamente al citocromo c",
+      "Directamente al oxígeno por el complejo IV"
+    ],
     "correcta": 0,
     "explicacion": "En el complejo II se forma FADH₂ al convertir succinato en fumarato, y los electrones se pasan por varios centros Fe-S hacia Q.",
     "referencia": "HarperCap 13.pdf · Cap. 13, pp. 127-128"
   },
   {
     "pregunta": "En el ciclo Q, ¿por qué la oxidación de un QH₂ está acoplada a la reducción de dos moléculas de citocromo c?",
-    "opciones": ["Porque Q acarrea dos electrones, mientras que cada citocromo acarrea sólo uno", "Porque cada citocromo acarrea dos electrones y Q sólo uno", "Porque el citocromo c es una proteína de membrana inmóvil", "Porque el ciclo Q consume dos moléculas de ATP"],
+    "opciones": [
+      "Porque Q acarrea dos electrones, mientras que cada citocromo acarrea sólo uno",
+      "Porque cada citocromo acarrea dos electrones y Q sólo uno",
+      "Porque el citocromo c es una proteína de membrana inmóvil",
+      "Porque el ciclo Q consume dos moléculas de ATP"
+    ],
     "correcta": 0,
     "explicacion": "Aunque Q acarrea dos electrones, los citocromos acarrean sólo uno; por eso la oxidación de un QH₂ se acopla a la reducción de dos moléculas de citocromo c mediante el ciclo Q.",
     "referencia": "HarperCap 13.pdf · Cap. 13, p. 129"
   },
   {
     "pregunta": "¿Qué manifestaciones muestran los pacientes con defectos hereditarios de las mitocondrias que afectan la cadena respiratoria y la fosforilación oxidativa?",
-    "opciones": ["Miopatía y encefalopatía, y suelen tener acidosis láctica", "Únicamente alteraciones de la coagulación", "Hipoglucemia sin otras alteraciones", "Anemia megaloblástica exclusivamente"],
+    "opciones": [
+      "Miopatía y encefalopatía, y suelen tener acidosis láctica",
+      "Únicamente alteraciones de la coagulación",
+      "Hipoglucemia sin otras alteraciones",
+      "Anemia megaloblástica exclusivamente"
+    ],
     "correcta": 0,
     "explicacion": "Los pacientes muestran miopatía y encefalopatía y suelen tener acidosis láctica. El síndrome MELAS se debe a deficiencia del complejo I o del complejo IV, por mutación del DNA mitocondrial.",
     "referencia": "HarperCap 13.pdf · Cap. 13, pp. 127 y 135"
   },
   {
     "pregunta": "¿Qué ocurre en el complejo IV (citocromo c oxidasa)?",
-    "opciones": ["Se oxida el citocromo c reducido y el O₂ se reduce a dos moléculas de agua, mediante hem a, hem a₃ y centros de cobre", "Se oxida NADH y se reduce Q", "Se oxida succinato y se reduce FAD", "Se sintetiza ATP a partir de ADP y Pi"],
+    "opciones": [
+      "Se oxida el citocromo c reducido y el O₂ se reduce a dos moléculas de agua, mediante hem a, hem a₃ y centros de cobre",
+      "Se oxida NADH y se reduce Q",
+      "Se oxida succinato y se reduce FAD",
+      "Se sintetiza ATP a partir de ADP y Pi"
+    ],
     "correcta": 0,
     "explicacion": "El complejo IV oxida el citocromo c reducido con la reducción concomitante de O₂ a dos moléculas de agua. Participan dos grupos hem (a y a₃) y centros de Cu (CuA y CuB).",
     "referencia": "HarperCap 13.pdf · Cap. 13, p. 130"
   },
   {
     "pregunta": "¿Qué ventaja tiene que el O₂ permanezca estrechamente unido al complejo IV hasta que se reduce por completo?",
-    "opciones": ["Minimiza la liberación de intermediarios perjudiciales como los aniones superóxido o peróxido", "Aumenta la producción de H₂O₂", "Impide el bombeo de protones", "Libera ATP directamente"],
+    "opciones": [
+      "Minimiza la liberación de intermediarios perjudiciales como los aniones superóxido o peróxido",
+      "Aumenta la producción de H₂O₂",
+      "Impide el bombeo de protones",
+      "Libera ATP directamente"
+    ],
     "correcta": 0,
     "explicacion": "Esa unión estrecha minimiza la liberación de intermediarios en potencia perjudiciales, como aniones superóxido o peróxido, que se forman cuando el O₂ acepta uno o dos electrones.",
     "referencia": "HarperCap 13.pdf · Cap. 13, p. 130"
   },
   {
-    "pregunta": "Según la teoría quimiosmótica propuesta por Peter Mitchell en 1961, ¿cómo se acoplan la oxidación y la fosforilación?",
-    "opciones": ["Mediante un gradiente de protón a través de la membrana mitocondrial interna", "Mediante un intermediario fosforilado de alta energía soluble", "Mediante contacto directo entre el complejo I y la ATP sintasa", "Mediante la hidrólisis de creatina fosfato"],
+    "pregunta": "Según la teoría quimiosmótica, ¿cómo se acoplan la oxidación y la fosforilación?",
+    "opciones": [
+      "Mediante un gradiente de protón a través de la membrana mitocondrial interna",
+      "Mediante un intermediario fosforilado de alta energía soluble",
+      "Mediante contacto directo entre el complejo I y la ATP sintasa",
+      "Mediante la hidrólisis de creatina fosfato"
+    ],
     "correcta": 0,
     "explicacion": "La teoría postula que ambos procesos se acoplan por un gradiente de protón a través de la membrana interna; la fuerza motriz de protón, causada por la diferencia de potencial electroquímico (negativa en el lado de la matriz), impulsa la síntesis de ATP.",
     "referencia": "HarperCap 13.pdf · Cap. 13, p. 130"
   },
   {
     "pregunta": "En la ATP sintasa, ¿qué ocurre cuando los protones fluyen a través de F₀?",
-    "opciones": ["F₀ rota, lo que impulsa la producción de ATP en el complejo F₁", "F₁ se disocia de la membrana", "Se bombean protones hacia el espacio intermembrana", "Se reduce O₂ a agua"],
+    "opciones": [
+      "F₀ rota, lo que impulsa la producción de ATP en el complejo F₁",
+      "F₁ se disocia de la membrana",
+      "Se bombean protones hacia el espacio intermembrana",
+      "Se reduce O₂ a agua"
+    ],
     "correcta": 0,
     "explicacion": "F₀ abarca la membrana y forma un canal de protones; el flujo de protones lo hace rotar, y eso impulsa la producción de ATP en F₁, que se proyecta hacia la matriz y contiene el mecanismo de fosforilación.",
     "referencia": "HarperCap 13.pdf · Cap. 13, pp. 130-131 (figura 13-8)"
   },
   {
     "pregunta": "Según el capítulo, ¿cuál es la proporción P:O cuando un sustrato se oxida mediante los complejos I, III y IV (vía NADH), y cuál cuando se oxida mediante II, III y IV (p. ej., succinato)?",
-    "opciones": ["2.5 y 1.5, respectivamente", "1.5 y 2.5, respectivamente", "3 y 2, respectivamente", "2 y 1, respectivamente"],
+    "opciones": [
+      "2.5 y 1.5, respectivamente",
+      "1.5 y 2.5, respectivamente",
+      "3 y 2, respectivamente",
+      "2 y 1, respectivamente"
+    ],
     "correcta": 0,
     "explicacion": "Por cada mol de sustrato oxidado por los complejos I, III y IV se forman 2.5 mol de ATP por 0.5 mol de O₂ (P:O = 2.5); por los complejos II, III y IV, 1.5 mol (P:O = 1.5).",
     "referencia": "HarperCap 13.pdf · Cap. 13, p. 131"
   },
   {
     "pregunta": "¿Qué porcentaje aproximado de los fosfatos de alta energía producidos por la oxidación completa de 1 mol de glucosa proviene de la fosforilación oxidativa acoplada a la cadena respiratoria?",
-    "opciones": ["Cerca de 10%", "Cerca de 40%", "Cerca de 60%", "Cerca de 90%"],
+    "opciones": [
+      "Cerca de 10%",
+      "Cerca de 40%",
+      "Cerca de 60%",
+      "Cerca de 90%"
+    ],
     "correcta": 3,
     "explicacion": "El texto estima que cerca de 90% de los fosfatos de alta energía producidos a partir de la oxidación completa de 1 mol de glucosa se obtiene mediante fosforilación oxidativa acoplada a la cadena respiratoria.",
     "referencia": "HarperCap 13.pdf · Cap. 13, p. 131"
   },
   {
     "pregunta": "Casi todas las células en estado de reposo se encuentran en el estado 4 de control respiratorio. ¿Qué controla entonces la respiración?",
-    "opciones": ["La disponibilidad de ADP", "La concentración de oxígeno exclusivamente", "La disponibilidad de sustrato exclusivamente", "La concentración de citocromo c"],
+    "opciones": [
+      "La disponibilidad de ADP",
+      "La concentración de oxígeno exclusivamente",
+      "La disponibilidad de sustrato exclusivamente",
+      "La concentración de citocromo c"
+    ],
     "correcta": 0,
     "explicacion": "Como la oxidación y la fosforilación están firmemente acopladas, la disponibilidad de ADP controla el índice de respiración. Al realizarse trabajo, el ATP se convierte en ADP, lo que permite más respiración.",
     "referencia": "HarperCap 13.pdf · Cap. 13, pp. 131-132 (cuadro 13-1)"
   },
   {
     "pregunta": "¿Dónde inhiben la cadena respiratoria los barbitúricos como el amobarbital?",
-    "opciones": ["En el complejo I, al bloquear la transferencia de Fe-S hacia Q", "En el complejo IV, al unirse al hem a₃", "En la ATP sintasa, al bloquear el flujo de protones", "En el transportador de ADP/ATP"],
+    "opciones": [
+      "En el complejo I, al bloquear la transferencia de Fe-S hacia Q",
+      "En el complejo IV, al unirse al hem a₃",
+      "En la ATP sintasa, al bloquear el flujo de protones",
+      "En el transportador de ADP/ATP"
+    ],
     "correcta": 0,
     "explicacion": "Los barbitúricos, como el amobarbital, inhiben el transporte de electrones mediante el complejo I al bloquear la transferencia desde Fe-S hacia Q; en dosis suficiente son mortales in vivo.",
     "referencia": "HarperCap 13.pdf · Cap. 13, p. 132"
   },
   {
     "pregunta": "¿Cuál complejo de la cadena respiratoria inhiben el cianuro, el monóxido de carbono y el H₂S?",
-    "opciones": ["Complejo I", "Complejo II", "Complejo III", "Complejo IV"],
+    "opciones": [
+      "Complejo I",
+      "Complejo II",
+      "Complejo III",
+      "Complejo IV"
+    ],
     "correcta": 3,
     "explicacion": "Los venenos clásicos H₂S, monóxido de carbono y cianuro inhiben el complejo IV y pueden suspender por completo la respiración. La antimicina A y el dimercaprol actúan en el complejo III, y el malonato inhibe de forma competitiva el complejo II.",
     "referencia": "HarperCap 13.pdf · Cap. 13, p. 132"
   },
   {
     "pregunta": "¿Cuál es el mecanismo de acción del antibiótico oligomicina?",
-    "opciones": ["Bloquea el flujo de protones por medio de la ATP sintasa, bloqueando la oxidación y la fosforilación", "Inhibe el transportador de ADP/ATP", "Actúa como desacoplador", "Inhibe el complejo I"],
+    "opciones": [
+      "Bloquea el flujo de protones por medio de la ATP sintasa, bloqueando la oxidación y la fosforilación",
+      "Inhibe el transportador de ADP/ATP",
+      "Actúa como desacoplador",
+      "Inhibe el complejo I"
+    ],
     "correcta": 0,
     "explicacion": "La oligomicina bloquea por completo la oxidación y la fosforilación al bloquear el flujo de protones por medio de la ATP sintasa. En cambio, el atractilósido inhibe el transportador de ADP hacia la mitocondria y de ATP hacia afuera.",
     "referencia": "HarperCap 13.pdf · Cap. 13, p. 132"
   },
   {
     "pregunta": "¿Cómo actúan los desacopladores, como el 2,4-dinitrofenol?",
-    "opciones": ["Aumentan la permeabilidad de la membrana interna a protones, colapsando el gradiente, de modo que la oxidación procede sin fosforilación", "Bloquean el complejo IV", "Inhiben el transportador de nucleótido de adenina", "Impiden la entrada de oxígeno a la mitocondria"],
+    "opciones": [
+      "Aumentan la permeabilidad de la membrana interna a protones, colapsando el gradiente, de modo que la oxidación procede sin fosforilación",
+      "Bloquean el complejo IV",
+      "Inhiben el transportador de nucleótido de adenina",
+      "Impiden la entrada de oxígeno a la mitocondria"
+    ],
     "correcta": 0,
     "explicacion": "Los desacopladores son anfipáticos y aumentan la permeabilidad de la membrana interna a protones; reducen el potencial electroquímico y provocan un cortocircuito de la ATP sintasa. La respiración se vuelve incontrolada porque ya no queda limitada por la concentración de ADP o Pi.",
     "referencia": "HarperCap 13.pdf · Cap. 13, pp. 132-133"
   },
   {
     "pregunta": "¿Cuál es la función fisiológica de la termogenina (proteína desacopladora)?",
-    "opciones": ["Generar calor corporal en el tejido adiposo pardo, en particular en el recién nacido y durante la hibernación", "Sintetizar ATP en el eritrocito", "Transportar ácidos grasos hacia la mitocondria", "Reducir el O₂ a agua"],
+    "opciones": [
+      "Generar calor corporal en el tejido adiposo pardo, en particular en el recién nacido y durante la hibernación",
+      "Sintetizar ATP en el eritrocito",
+      "Transportar ácidos grasos hacia la mitocondria",
+      "Reducir el O₂ a agua"
+    ],
     "correcta": 0,
     "explicacion": "La termogenina es un desacoplador fisiológico del tejido adiposo pardo que funciona para generar calor corporal, en particular en el recién nacido y durante la hibernación en animales.",
     "referencia": "HarperCap 13.pdf · Cap. 13, p. 132"
   },
   {
     "pregunta": "Cuando el NADH citosólico transfiere sus equivalentes reductores por el transbordador de glicerofosfato, ¿por qué se forman sólo 1.5 mol de ATP por átomo de oxígeno consumido en lugar de 2.5?",
-    "opciones": ["Porque la enzima mitocondrial está enlazada a la cadena respiratoria por una flavoproteína y no por NAD", "Porque el complejo IV no participa", "Porque se consume ATP en el transporte de glicerofosfato", "Porque el glicerofosfato inhibe la ATP sintasa"],
+    "opciones": [
+      "Porque la enzima mitocondrial está enlazada a la cadena respiratoria por una flavoproteína y no por NAD",
+      "Porque el complejo IV no participa",
+      "Porque se consume ATP en el transporte de glicerofosfato",
+      "Porque el glicerofosfato inhibe la ATP sintasa"
+    ],
     "correcta": 0,
     "explicacion": "La enzima mitocondrial del transbordador de glicerofosfato se enlaza a la cadena respiratoria por medio de una flavoproteína más que por NAD, por lo que sólo se forman 1.5 mol de ATP. Este transbordador está presente en tejidos como cerebro y músculo blanco, pero es deficiente en el músculo cardiaco.",
     "referencia": "HarperCap 13.pdf · Cap. 13, p. 134 (figura 13-12)"

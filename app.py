@@ -97,6 +97,27 @@ def api_quiz():
     return jsonify(token=token, titulo=titulo, preguntas=salida)
 
 
+@app.route("/api/verificar", methods=["POST"])
+def api_verificar():
+    """Corrige una sola pregunta al instante (modo con resultado inmediato)."""
+    datos = request.get_json(silent=True) or {}
+    try:
+        claves = FIRMA.loads(datos.get("token", ""), max_age=VIGENCIA_SEG)
+    except (BadSignature, SignatureExpired):
+        claves = None
+    qid, elegida = datos.get("id"), datos.get("elegida")
+    if not isinstance(claves, dict) or qid not in claves or qid not in POR_ID \
+            or not isinstance(elegida, int) or not 0 <= elegida < 4:
+        return jsonify(error="El intento expiró o no es válido. Comienza uno nuevo."), 400
+    q = POR_ID[qid]
+    return jsonify(
+        acierto=elegida == claves[qid],
+        correcta=claves[qid],
+        explicacion=q["explicacion"],
+        referencia=q["referencia"],
+    )
+
+
 @app.route("/api/resultado", methods=["POST"])
 def api_resultado():
     datos = request.get_json(silent=True) or {}

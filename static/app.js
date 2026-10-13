@@ -1,7 +1,9 @@
 (function () {
   "use strict";
   var app = document.getElementById("app");
-  var estado = { token: null, titulo: "", preguntas: [], actual: 0, respuestas: {} };
+  var estado = { token: null, titulo: "", preguntas: [], actual: 0, respuestas: {}, feedback: {} };
+  var modoInstante = true;
+  try { modoInstante = localStorage.getItem("modoInstante") !== "0"; } catch (e) {}
   var LETRAS = ["A", "B", "C", "D"];
 
   function esc(s) {
@@ -31,6 +33,8 @@
     pedir("/api/temas").then(function (d) {
       var h = '<div class="card"><h2>¿Qué quieres practicar?</h2>' +
         '<p class="muted small">Banco de ' + d.total + " preguntas. Cada intento baraja el orden de preguntas y opciones.</p>" +
+        '<label class="switch"><input type="checkbox" id="instante"' + (modoInstante ? " checked" : "") +
+        '><span>Ver si acerté al instante, después de cada pregunta</span></label>' +
         '<button class="btn" id="mixto">🎲 Examen mixto · ' + d.tamano_mixto + " preguntas al azar</button></div>" +
         '<div class="card"><h2>O elige un tema</h2><div class="temas">';
       d.temas.forEach(function (t) {
@@ -40,6 +44,10 @@
       });
       h += "</div></div>";
       app.innerHTML = h;
+      document.getElementById("instante").onchange = function () {
+        modoInstante = this.checked;
+        try { localStorage.setItem("modoInstante", modoInstante ? "1" : "0"); } catch (e) {}
+      };
       document.getElementById("mixto").onclick = function () { comenzar("mixto"); };
       Array.prototype.forEach.call(app.querySelectorAll(".tema"), function (b) {
         b.onclick = function () { comenzar(b.getAttribute("data-t")); };
@@ -50,7 +58,7 @@
   function comenzar(tema) {
     app.innerHTML = '<div class="card"><p class="muted">Preparando preguntas…</p></div>';
     pedir("/api/quiz?tema=" + encodeURIComponent(tema)).then(function (d) {
-      estado = { token: d.token, titulo: d.titulo, preguntas: d.preguntas, actual: 0, respuestas: {}, tema: tema };
+      estado = { token: d.token, titulo: d.titulo, preguntas: d.preguntas, actual: 0, respuestas: {}, feedback: {}, tema: tema, instante: modoInstante };
       pregunta();
     }).catch(function (e) { mostrarError(e.message); });
   }
@@ -59,6 +67,8 @@
     var total = estado.preguntas.length;
     var q = estado.preguntas[estado.actual];
     var elegida = estado.respuestas[q.id];
+    var fb = estado.feedback[q.id];
+    var bloqueada = estado.instante && fb;
     var contestadas = Object.keys(estado.respuestas).length;
     var h = '<div class="prog-wrap"><div class="prog-top"><span>Pregunta ' + (estado.actual + 1) +
       " de " + total + "</span><span>" + contestadas + " contestadas</span></div>" +
@@ -66,15 +76,30 @@
       '<div class="card"><span class="chip">' + esc(q.tema) + '</span><p class="preg">' + esc(q.pregunta) +
       '</p><div class="opts">';
     q.opciones.forEach(function (o, i) {
-      h += '<button class="opt' + (elegida === i ? " sel" : "") + '" data-i="' + i + '"><span class="L">' +
-        LETRAS[i] + "</span><span>" + esc(o) + "</span></button>";
+      var cls = "opt";
+      if (bloqueada) {
+        if (i === fb.correcta) cls += " good";
+        else if (i === elegida) cls += " wrong";
+      } else if (elegida === i) {
+        cls += " sel";
+      }
+      h += '<button class="' + cls + '" data-i="' + i + '"' + (bloqueada ? " disabled" : "") +
+        '><span class="L">' + LETRAS[i] + "</span><span>" + esc(o) + "</span></button>";
     });
-    h += "</div></div><div class=\"row\">";
+    h += "</div></div>";
+    if (bloqueada) {
+      h += '<div class="card fb ' + (fb.acierto ? "ok" : "bad") + '"><strong>' +
+        (fb.acierto ? "¡Correcto! ✓" : "Incorrecto ✗ · La respuesta correcta es " + LETRAS[fb.correcta]) +
+        '</strong><div class="exp">' + esc(fb.explicacion) + '</div><div class="ref">📖 ' +
+        esc(fb.referencia) + "</div></div>";
+    }
+    h += '<div class="row">';
     h += '<button class="btn sec" id="ant"' + (estado.actual === 0 ? " disabled" : "") + ">← Anterior</button>";
+    var puedeAvanzar = !estado.instante || bloqueada;
     if (estado.actual < total - 1) {
-      h += '<button class="btn" id="sig">Siguiente →</button>';
+      h += '<button class="btn" id="sig"' + (puedeAvanzar ? "" : " disabled") + ">Siguiente →</button>";
     } else {
-      h += '<button class="btn" id="fin">Terminar</button>';
+      h += '<button class="btn" id="fin"' + (puedeAvanzar ? "" : " disabled") + ">Terminar</button>";
     }
     h += "</div>";
     app.innerHTML = h;
@@ -82,8 +107,19 @@
 
     Array.prototype.forEach.call(app.querySelectorAll(".opt"), function (b) {
       b.onclick = function () {
-        estado.respuestas[q.id] = parseInt(b.getAttribute("data-i"), 10);
-        pregunta();
+        var i = parseInt(b.getAttribute("data-i"), 10);
+        estado.respuestas[q.id] = i;
+        if (!estado.instante) { pregunta(); return; }
+        pedir("/api/verificar", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ token: estado.token, id: q.id, elegida: i })
+        }).then(function (r) {
+          estado.feedback[q.id] = r;
+          pregunta();
+          var f = app.querySelector(".fb");
+          if (f && f.scrollIntoView) f.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        }).catch(function (e) { delete estado.respuestas[q.id]; mostrarError(e.message); });
       };
     });
     document.getElementById("ant").onclick = function () { estado.actual--; pregunta(); };
